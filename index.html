@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CompuWorld</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+               <li> <a href="index.html">Home</a> </li>
+               <li><a href="./pages/ofertas.html">Ofertas</a> </li>
+               <li><a href="./pages/destacados.html">Productos Destacados</a></li>
+               <li><a href="./pages/nosotros.html">Nosotros</a></li>
+               <li><a href="./pages/contacto.html">Contacto</a></li>
+               
+            </ul>
+       </nav>
+    </header>
+    <main>
+        <section class="textosSuperiores">
+            <div class="titulo">
+                <h1>CompuWorld</h1>
+            </div>
+            <div class="descripcion">
+                <h2 class="subtitulo">Venta de Productos electrónicos de computación</h2>
+                <p class="textoDescriptivo">Encontrá aquí tu computadora perfecta con el mejor precio, aquí te dejamos 
+                algunos de los productos:</p>
+            </div>
+        </section>
+        <section class="productosInicio">
+            <section class="cuerpo"> 
+            <div class="muestraMouse">
+                <picture>
+                    <source media="(min-width: 500px)" srcset="images/mouseLogitechG502Hero500px.jpg">
+                    <source media="(min-width: 768px)" srcset="images/mouseLogitechG502Hero768px.jpg">
+                    <source media="(min-width: 1024px)" srcset="images/mouseLogitechG502Hero1024px.jpg">
+                    <img src="./images/mouseLogitechG502Hero.jpg" alt="Mouse Gamer de Alta Calidad">
+                </picture>
+                <p>Mouse Logitech G502 Hero $7800 ARS</p>
+            </div>
+            <div class="muestraAuricular" >
+                <picture>
+                <source media="(min-width: 500px )" srcset="images/corsairHS80RGBWirelessReview500px.jpg">
+                <source media="(min-width: 768px )" srcset="images/corsairHS80RGBWirelessReview768px.jpg">
+                <source media="(min-width: 1024px )" srcset="images/corsairHS80RGBWirelessReview1024px.jpg">
+                <img class="auricularInicio" src="./images/corsairHS80RGBWirelessReview.jpg" alt="Auricular Gamer de Alta calidad">
+                </picture>
+                <p>Corsair Hs80 RGB Wireless $25000 ARS</p>
+            </div>
+            <div class="muestraTeclado" >
+                <picture>
+                    <source media="(min-width: 500px )" srcset="images/hyperxAlloyOrigins500px.jpg">
+                    <source media="(min-width: 768px )" srcset="images/hyperxAlloyOrigins768px.jpg">
+                    <source media="(min-width: 1024px )" srcset="images/hyperxAlloyOrigins1024px.jpg">
+                    <img class="tecladoInicio" src="./images/hyperxAlloyOrigins.jpg" alt="Teclado Gamer de Alta calidad">
+                    </picture>
+                
+                <p>Corsair Hyperx Alloy Origins $17499 ARS</p>
+            </div>
+            <div class="muestraPlacaVideo" >
+                <picture>
+                    <source media="(min-width: 500px )" srcset="images/rtx3080ti500px.jpg">
+                    <source media="(min-width: 768px )" srcset="images/rtx3080ti768px.jpg">
+                    <source media="(min-width: 1024px )" srcset="images/rtx3080ti1024px.jpg">
+                    <img class="placaInicio" src="./images/rtx3080ti.jpg" alt="Placa de video">
+                    </picture>
+                <p>Placa de video RTX 3080 ti $229.999 ARS</p>
+            </div>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <form>
+            <label for="feedback"></label> Feedback:<br>
+            <textarea placeholder="feedback"></textarea>
+            <br>
+            <input type="submit" value="Enviar Feedback">
+            
+        </form>
+    </footer>
+</body>
+
+</html>
