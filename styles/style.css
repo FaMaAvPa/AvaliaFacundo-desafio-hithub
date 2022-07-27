@@ -11,20 +11,8 @@ header{
     font-family: 'Poppins', sans-serif;;
     display: grid;
 }
-header nav ul{
-    list-style-type: none;
-    background-color: #7A4069;
-    border:#7A4069 2% solid;
-    text-decoration: none;
-    display: flex;
-    grid-area:header;
-}
-header nav ul li{
-    color: coral;
-    padding-right: 3%;
-    padding-left: 3%;
-    font-size: 70%;
-}
+
+
 /*Declarar el area de todos los bodys*/
 body main{
     grid-area: body;
@@ -87,7 +75,8 @@ footer{
 }
 footer form{
     grid-area: feedback;
-}
+}   
+
 /*animaciones index*/
 .productosInicio img:hover{
     transform: scale(1.1);
